@@ -2,6 +2,7 @@ package com.example.leaningmergecode;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Button;
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     Button button;
-
+    Intent intent;
     ImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
         textView.setText("hi");
 
-        textView.setText("add some new text");
+
+        intent = new Intent(MainActivity.this, Profile.class);
+        startActivity(intent);
     }
 }
