@@ -32,5 +32,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i=0; i<5; i++) {
             textView.setText("set text 5 from sophann_book_mark");
         }
+
+        textView.setText("add new line");
     }
 }
