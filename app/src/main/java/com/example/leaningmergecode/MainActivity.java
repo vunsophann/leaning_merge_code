@@ -28,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
         intent = new Intent(MainActivity.this, Profile.class);
         startActivity(intent);
+        textView.setText("add some new text");
+        for (int i=0; i<5; i++) {
+            textView.setText("set text 5 from sophann_book_mark");
+        }
     }
 }
