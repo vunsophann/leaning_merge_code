@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
 
         textView.setText("hi");
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
