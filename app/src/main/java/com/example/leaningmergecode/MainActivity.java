@@ -23,5 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         textView.setText("hi");
+
+        textView.setText("add some new text");
     }
 }
